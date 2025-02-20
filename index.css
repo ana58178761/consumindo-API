@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+
+    margin: 0 ;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    background-color: #eaf2f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+.container {
+    max-width: 100%; 
+    box-sizing: border-box;
+    width: 90%;
+    max-width: 1000px;
+    background: #dfe6e9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    box-sizing: border-box; 
+}
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+    position: relative;
+}
+.logo {
+    background: url('pata.jpg') no-repeat center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.formulario {
+    background: #ecf0f1;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+label {
+    margin: 5px 0;
+    font-weight: bold;
+}
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+button {
+    padding: 10px;
+    background-color: hsl(308, 68%, 65%);
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #e262a8;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #bdc3c7;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #7c2662;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.remover-btn {
+    color: rgb(218, 120, 144);
+    cursor: pointer;
+}
+.conteudo {
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 100%;
+    box-sizing: border-box;
+    display: flex; 
+    gap: 20px; 
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.formulario {
+    background: #ecf0f1;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+    min-width: 300px;
+}
+.tabela-container {
+    flex: 1; 
+    overflow-x: auto; 
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 500px; 
+}
+th, td {
+    border: 1px solid #bdc3c7;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #852480;
+    color: white;
+}
